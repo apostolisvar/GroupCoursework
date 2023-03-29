@@ -1,0 +1,2 @@
+SELECT * FROM PROJECT
+WHERE projname LIKE '%urn%'

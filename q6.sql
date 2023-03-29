@@ -1,0 +1,2 @@
+SELECT * FROM PROJECT
+WHERE budget = (SELECT max(budget) FROM PROJECT);

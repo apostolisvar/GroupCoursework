@@ -1,0 +1,2 @@
+SELECT * FROM PROJECT
+WHERE budget = (SELECT min(budget) FROM PROJECT);
